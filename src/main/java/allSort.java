@@ -6,8 +6,8 @@ class allSort {
         //排序区
         long start_time=System.currentTimeMillis();
 
-        //bubble_sort(array);//219ms
-        //selection_sort(array);//129ms
+        bubble_sort(array);//冒泡排序---219ms
+        //selection_sort(array);//选择排序---129ms
 
         long end_time=System.currentTimeMillis();
         System.out.println("排序前："+start_time);
